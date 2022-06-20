@@ -1,4 +1,4 @@
-public class ValidateFileQueueable implements Queueable,Database.AllowsCallouts{
+public  without sharing class ValidateFileQueueable implements Queueable,Database.AllowsCallouts{
     private static final String STATE_URL_NAME = 'UrlCheckState';
     private static final String STATE_PARSER_NAME = 'UrlParser';
     public ContentVersion cv;
